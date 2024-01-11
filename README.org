@@ -1,3 +1,34 @@
 #+title: Readme
+#+description: Notes on my study of the C Book
+#+author: Aldo Jimenez Wiehoff
 
-* Notes of The C Book
+* C Book
+** Chapter 1
+*** Getting Started
+The first example of the book is the classic hello world exercise.
+
+#+begin_src c
+#include <stdio.h>
+main (){
+    printf("hello, world!\n");
+}
+#+end_src
+
+In this example the book teachs you how to code and compile a C program with cc.
+
+#+begin_src bash
+cc helloWorld.c
+#+end_src
+
+Delivering an output of a.out
+
+A program in c consist of functions and variables.
+- a function contains statements that specify the computing operations to be done.
+- a variable store values ised during the computation.
+
+The "main" function is where begins executing the program
+
+The "#include <stdio.h>" tells the compiler to include information about the standard input/output library.
+
+The "\n" in strings means a new line
+*** Variables and Arithmetic Expressions
